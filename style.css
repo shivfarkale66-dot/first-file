@@ -6,9 +6,7 @@ p{
     font-size: 20px;
     letter-spacing: 5px;
     margin: auto;
-    justify-content: center;
-    height: 50px;
-    width: 100%;
+    
     
 }
 
@@ -51,5 +49,18 @@ p{
    text-align: center;
    background-color: rgb(126, 73, 73);
    border: 2px solid black;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(126, 73, 73);
+    border: 2px solid black;
     border-radius: 10px;
 }
