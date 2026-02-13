@@ -34,3 +34,22 @@ p{
     height: 50px;
     width: 100%;
 }
+
+#ser{ 
+    width: 500px;
+    height: 500px;   
+   text-align: center;
+   background-color: rgb(17, 164, 162);
+   border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+#sur{
+    width: 500px;
+    height: 50px;   
+   text-align: center;
+   background-color: rgb(126, 73, 73);
+   border: 2px solid black;
+    border-radius: 10px;
+}
