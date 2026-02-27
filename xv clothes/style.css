@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+
+.nav-left,
+.nav-right {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-left a,
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    opacity: 0.6;
+}
+
+
+.sectionone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    /* margin-left: 200px; */
+    width: 100%;
+    height: 80vh;
+    
+
+}  
+
+.menimg{
+    width:40%;
+    height: 80vh;
+    background-image:url(./SS26_M_NEW-ARRIVALS_BUCKET.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left:10%;
+    /* margin-right: 20%; */
+    
+    
+}
+
+ .menbutton{
+   /* width: 200px;
+    height: 50px;
+    border: 2px solid red; 
+    position: relative;
+    top: 450px ;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    color: red ;
+    background-color: none; */
+     
+    
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 450px ;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-decoration: none;
+    color: white ;
+    cursor: pointer;
+    transition: 0.30 ;
+    
+
+    
+}
+
+
+.womenimg{
+    background-image: url(./SS26_W_NEW-ARRIVALS_BUCKET.webp);
+    width: 40%;
+    height: 80vh; 
+    margin-right: 10%;
+       background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.womebutton{ 
+/* width: 200px;
+    height: 50px;
+    border: 2px solid red; 
+    position: relative;
+    top: 450px ;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    color: red ; */
+
+      
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 450px ;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-decoration: none;
+    color: white ;
+    cursor: pointer;
+    transition: 0.30 ;
+
+}
+
+
+
+.sectiontwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.bagbutton{
+
+width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 450px ;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-decoration: none;
+    color: white ;
+    cursor: pointer;
+    transition: 0.30 ;
+  
+
+    
+
+
+}
+
+
+.bagbutto :hover { 
+    
+    background-color: #45a049 ;
+    box-shadow:0 8px 16px 0 rgpa(0,0,0,0.2) ;
+}
+
+
+
+
+
+.mensneakars{
+
+
+
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 450px ;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-decoration: none;
+    color: white ;
+    cursor: pointer;
+    transition: 0.30 ;
+
+
+}
+
+.hat{
+ 
+    
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 450px ;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-decoration: none;
+    color: white ;
+    cursor: pointer;
+    transition: 0.30 ;
+} 
+
+.bag{
+    background-image: url(./SS26_W_HANDBAGS_BUCKET.webp);
+      width: 40%;
+    height: 80vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+
+
+}
+
+.sneakers{
+    background-image: url(./SS26_M_SNEAKERS_BUCKET.webp) ;
+       width: 40%;
+    height: 80vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hats{
+    background-image: url(./SS26_M_HATS_BUCKET.webp);
+       width: 40%;
+    height: 80vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+/* section three vedios */
+.sectionsthree{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+ .lastsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+
+ }
+ .card{
+    transition: 0.5s ease;
+    cursor: pointer;
+
+    
+ }
+  .lastsection  :hover >:not(:hover){
+    opacity: 0.3;
+
+  }
+  .card :hover{
+    transform: scale(1.1);
+
+  }
+  
+
+
+
+.detial{ 
+    background-color: gray;
+}
+ 
